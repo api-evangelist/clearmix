@@ -1,22 +1,53 @@
 aid: clearmix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearmix.png
 name: ClearMix
-description: ClearMix is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ClearMix was a technology startup founded by Gabriel Ruttner and backed by Bloomberg
+  Beta. It is listed in Bloomberg Beta's public portfolio with an exit marker, indicating the
+  company has since exited (acquired or wound down). As of the last enrichment pass no live company,
+  developer, or API surface could be located - candidate domains do not resolve - so there are no
+  public API artifacts to harvest. This profile remains an identity-only lead in the API Evangelist
+  network pending discovery of any successor or archived developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/clearmix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
+x-founder: Gabriel Ruttner
+x-founder-linkedin: https://www.linkedin.com/in/gruttner/
+x-status: exited
+x-status-source: https://github.com/Bloomberg-Beta/Manual/blob/master/2%20-%20In%20our%20portfolio.md
+x-enrichment-note: 'No live web/developer surface found on 2026-07-18; candidate domains (clearmix.com/.io/.tv/.co/.ai/.net/.app) all NXDOMAIN. No OpenAPI, packages, well-known, MCP, or docs available to harvest. No fabrication.'
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Startup
+- Venture Backed
+- Bloomberg Beta
+- Portfolio
+- Exited
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
