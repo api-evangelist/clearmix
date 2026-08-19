@@ -30,7 +30,7 @@ x-status-source: https://github.com/Bloomberg-Beta/Manual/blob/master/2%20-%20In
 x-enrichment-note: 'No live web/developer surface found on 2026-07-18; candidate domains (clearmix.com/.io/.tv/.co/.ai/.net/.app) all NXDOMAIN. No OpenAPI, packages, well-known, MCP, or docs available to harvest. No fabrication.'
 x-tier: stub
 x-tier-reason: portfolio-lead
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
